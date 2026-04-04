@@ -77,5 +77,5 @@ Encoder(value: string): string {
 
 const binary = new Binary("hello");
 console.log("Binary value:", binary.Encoder("Hello"));
-console.log("Binary value:", binary.Decoder("0100100001100101011011000110110001101111"));
+console.log("Binary value:", binary.Decoder("01001000011001d23565601011011000110110001101111"));
 console.log("Terminal output is working!");
