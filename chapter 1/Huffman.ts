@@ -15,7 +15,7 @@ class Huffman{
         sortedHash(): TreeNode[] {
             let hash :{[key: string]: number } = {}
             let strArry = this.value.split("")
-            for(let i =0; i <= strArry.length -1; i++){
+            for(let i = 0; i <= strArry.length -1; i++){
                 if(hash[strArry[i]]=== undefined){
                     hash[strArry[i]] = 1
                 }else{
